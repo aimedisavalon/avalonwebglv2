@@ -10,7 +10,8 @@ function Login() {
   var config = {
     headers: {
       Accept: "application/json",
-      "Content-Type": "application/json",
+      // "Content-Type": "application/json",
+      'Content-Type': 'application/x-www-form-urlencoded',
     }
   };
   
