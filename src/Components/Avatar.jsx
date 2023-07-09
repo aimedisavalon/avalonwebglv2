@@ -23,10 +23,10 @@ function Avatar() {
   Jump[0].name = "Jump";
   Sitting[0].name = "Sitting";
 
-  const { actions } = useAnimations(W, model);
+  const { actions } = useAnimations(Wave, model);
   
   useEffect(()=>{
-    actions['W']?.play()
+    actions['Wave']?.play()
   },[Walk])
   return (
     <>
